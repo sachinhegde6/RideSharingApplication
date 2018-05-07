@@ -5,26 +5,26 @@ Millions of rides are taken every year in United states and most of the solution
 ### Dependecy and enviroment
 #### Language
 The entire project was implemented in Python 3.6 on Anaconda Platform using Jupyter Notebook. 
-####Libraries
+#### Libraries
 Multiple libraries were used starting from initial preprocessing till obtaining the results. Listed below:
-•	To access external data stored in database, file and external services.
-o	pymysql: Database Connector, enables python programs to talk to MySQL Server. 
-o	urllib: This module provides a high-level interface for fetching data across the World Wide Web, here to make calls to OSRM service. 
-o	csv: The csv module implements classes to read and write tabular data in CSV format. 
-•	Routing and Pooling 
-o	bresenham: An implementation of Bresenham’s line drawing algorithm.
-o	scikit-learn:  Used sklearn.cluster.DBSCAN to implement the clustering. 
-•	Data Processing 
-o	numpy: A fundamental package for computing supports N-dimensional array objects. 
-o	json: To support JSON (JavaScript Object Notation) is a lightweight data-interchange format
-o	datetime: Has classes for manipulating dates and times in both simple and complex ways.
-o	collections: Implements specialized container datatypes. 
+•	 To access external data stored in database, file and external services.
+o	 pymysql: Database Connector, enables python programs to talk to MySQL Server. 
+o	 urllib: This module provides a high-level interface for fetching data across the World Wide Web, here to make calls to OSRM service. 
+o	 csv: The csv module implements classes to read and write tabular data in CSV format. 
+•	 Routing and Pooling 
+o	 bresenham: An implementation of Bresenham’s line drawing algorithm.
+o	 scikit-learn:  Used sklearn.cluster.DBSCAN to implement the clustering. 
+•	 Data Processing 
+o	 numpy: A fundamental package for computing supports N-dimensional array objects. 
+o	 json: To support JSON (JavaScript Object Notation) is a lightweight data-interchange format
+o	 datetime: Has classes for manipulating dates and times in both simple and complex ways.
+o	 collections: Implements specialized container datatypes. 
 
-####Data
+#### Data
 The data considered for this implemetetion was taken from NYC yellow cab data from feb 2016
 https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2016-02.csv
 
-####SQL DB table creation query
+#### SQL DB table creation query
     use rideshare;
 
 	create table customer_table(
@@ -71,14 +71,14 @@ https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2016-02.csv
 	ON UPDATE CASCADE
 	);
 
-	CREATE TABLE \`rideshare\`\.\`customer_preference\` (
-	 \`customer_id\` INT NOT NULL,
-	  \`booking_id\` INT NULL,
-	  \`delay\` INT NULL,
-	  \`save_money_yn\` VARCHAR(1) NULL,
-	  \`save_time_yn\` VARCHAR(1) NULL );
+	CREATE TABLE `rideshare`.`customer_preference` (
+	  `customer_id` INT NOT NULL,
+	  `booking_id` INT NULL,
+	  `delay` INT NULL,
+	  `save_money_yn` VARCHAR(1) NULL,
+	  `save_time_yn` VARCHAR(1) NULL );
 
-##Execution
+## Execution
 1. Create sql DB and run the above mentioned SQL command
 2. Assuming Python 3.6, Anacond are installed open jupyter notebook
 3.  Run CSVtoBD.ipynb
