@@ -1,6 +1,6 @@
 
 # Ride Sharing Application
-Millions of rides are taken every year in United states and most of the solutions that were extensively used till recently including New York yellow taxi mainly served single ride. This is inefficient considering how many passengers books single rides with source and destination that are close or on the way. The primary goal of this implementation is to efficiently combine rides arising from single prominent source and destinations which are close-by or on the way while experimenting with user score model which would encourage the passengers to invest in this system by providing them with rewards over time. Rewards would include priority in pooling, route selection and savings with respect to time and money.
+Millions of rides are taken every year in United states and most of the solutions that were extensively used till recently including New York yellow taxi mainly served single ride. This is inefficient considering how many passengers books single rides with source and destination that are close or on the way. The primary goal of this implementation is to efficiently combine rides arising from single prominent source and destinations which are close-by or on the way while experimenting with user score model which would encourage the passengers to invest in this system by providing them with incentives over time. Rewards would include priority in pooling, route selection and savings with respect to time and money.
 
 ### Dependecy and enviroment
 #### Language
