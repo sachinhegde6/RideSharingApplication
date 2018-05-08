@@ -8,17 +8,17 @@ The entire project was implemented in Python 3.6 on Anaconda Platform using Jupy
 #### Libraries
 Multiple libraries were used starting from initial preprocessing till obtaining the results. Listed below:
 -	 To access external data stored in database, file and external services.
-o	 pymysql: Database Connector, enables python programs to talk to MySQL Server. 
-o	 urllib: This module provides a high-level interface for fetching data across the World Wide Web, here to make calls to OSRM service. 
-o	 csv: The csv module implements classes to read and write tabular data in CSV format. 
+*	 pymysql: Database Connector, enables python programs to talk to MySQL Server. 
+*	 urllib: This module provides a high-level interface for fetching data across the World Wide Web, here to make calls to OSRM service. 
+*	 csv: The csv module implements classes to read and write tabular data in CSV format. 
 -	 Routing and Pooling 
-o	 bresenham: An implementation of Bresenham’s line drawing algorithm.
-o	 scikit-learn:  Used sklearn.cluster.DBSCAN to implement the clustering. 
+*	 bresenham: An implementation of Bresenham’s line drawing algorithm.
+*	 scikit-learn:  Used sklearn.cluster.DBSCAN to implement the clustering. 
 -	 Data Processing 
-o	 numpy: A fundamental package for computing supports N-dimensional array objects. 
-o	 json: To support JSON (JavaScript Object Notation) is a lightweight data-interchange format
-o	 datetime: Has classes for manipulating dates and times in both simple and complex ways.
-o	 collections: Implements specialized container datatypes. 
+*	 numpy: A fundamental package for computing supports N-dimensional array objects. 
+*	 json: To support JSON (JavaScript Object Notation) is a lightweight data-interchange format
+*	 datetime: Has classes for manipulating dates and times in both simple and complex ways.
+*	 collections: Implements specialized container datatypes. 
 
 #### Data
 The data considered for this implemetetion was taken from NYC yellow cab data from feb 2016
