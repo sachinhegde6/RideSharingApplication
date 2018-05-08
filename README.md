@@ -81,6 +81,6 @@ https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2016-02.csv
 ## Execution
 1. Create sql DB and run the above mentioned SQL command
 2. Copy downloaded data file, CSVtoBD, and PoolingandRouting files in the same directory 
-3. Assuming Python 3.6, Anacond are installed open jupyter notebook
-3.  Run CSVtoBD.ipynb in sequence
+3. Assuming Python 3.6, Anacond are installed open jupyter notebook. Verify above mentioned libraries are present
+3. Run CSVtoBD.ipynb in sequence
 4. Run PoolingandRouting.ipynb in sequence
